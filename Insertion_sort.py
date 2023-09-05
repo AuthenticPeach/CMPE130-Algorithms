@@ -10,6 +10,9 @@ def insertion_sort(arr):
             j -= 1
         arr[j + 1] = current_element
 
+
+# Example list of numbers
+# numbers = [7, 3, 1, 9, 2, 6, 5, 4, 8]
 # Generate a large list of random numbers
 large_list = [random.randint(1, 1000) for _ in range(10000)]
 
